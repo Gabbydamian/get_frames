@@ -42,4 +42,4 @@ This program is created by [Damian Gabriel](https://github.com/Gabbydamian).
 
 ## License
 
-This program is licensed under the ISC License.
+This program is licensed under the MIT License.
