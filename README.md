@@ -17,12 +17,13 @@ This is a Node.js program that extracts individual frames from a video and saves
 3. Open a terminal or command prompt and navigate to the project directory.
 
 4. Install the dependencies by running the following command:
+`npm install`
 
 
 ## Usage
 
 To extract frames from a video, use the following command:
-`npm install`
+
 
 - `<inputVideoPath>`: The path to the input video file.
 - `<outputFolder>`: The folder where the extracted frames will be saved.
@@ -30,6 +31,8 @@ To extract frames from a video, use the following command:
 - `[frameRate]` (optional): The frame rate (frames per second) for extraction. Defaults to 24.
 
 For example, to extract frames from a video named `input.mp4` with a quality of 2 and a frame rate of 12 fps, and save them in a folder named `frames`, run the following command:
+
+`node getFrames input.mp4 frames 2 12`
 
 After executing the command, the program will extract the frames from the video and save them as individual image files in the specified output folder.
 
