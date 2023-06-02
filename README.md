@@ -18,9 +18,11 @@ This is a Node.js program that extracts individual frames from a video and saves
 
 4. Install the dependencies by running the following command:
 
+
 ## Usage
 
 To extract frames from a video, use the following command:
+`npm install`
 
 - `<inputVideoPath>`: The path to the input video file.
 - `<outputFolder>`: The folder where the extracted frames will be saved.
