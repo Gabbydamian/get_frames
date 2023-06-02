@@ -32,7 +32,7 @@ To extract frames from a video, use the following command:
 
 For example, to extract frames from a video named `input.mp4` with a quality of 2 and a frame rate of 12 fps, and save them in a folder named `frames`, run the following command:
 
-`node getFrames input.mp4 frames 2 12`
+`node index.js input.mp4 frames 2 12`
 
 After executing the command, the program will extract the frames from the video and save them as individual image files in the specified output folder.
 
